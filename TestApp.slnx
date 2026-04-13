@@ -1,6 +1,5 @@
 <Solution>
   <Folder Name="/Solution Items/">
-    <File Path="-.txt" />
     <File Path=".gitignore" />
   </Folder>
   <Project Path="TestApp/TestApp.csproj" />

@@ -23,4 +23,7 @@ app.MapStaticAssets();
 app.MapRazorPages()
    .WithStaticAssets();
 
+app.MapGet("/", () => "Hello World!");
+
+app.MapGet("/health", () => Results.Ok("Healthy"));
 app.Run();
