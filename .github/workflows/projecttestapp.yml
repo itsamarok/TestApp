@@ -61,6 +61,7 @@ jobs:
     - name: Health check staging slot
       run: |
         curl -f https://projecttestapp-staging-c8d4c4hxechjfxh8.canadacentral-01.azurewebsites.net/health || exit 1
+     
          echo "✅ Staging health check passed"
    # ─────────────────────────────────────────
   # JOB 3: SWAP TO PRODUCTION
