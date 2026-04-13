@@ -91,5 +91,5 @@ jobs:
     - name: Health Check - Production
       run: |
         sleep 15
-        curl -f https://projecttestapp.azurewebsites.net/health || exit 1
+        curl -f https://projecttestapp-bqangfcgauhebvfr.canadacentral-01.azurewebsites.net/health || exit 1
         echo "✅ Production health check passed"
