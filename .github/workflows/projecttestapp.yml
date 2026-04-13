@@ -59,7 +59,7 @@ jobs:
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
     - name: Health check staging slot
       run: |
-        curl -f https://projecttestapp-staging-c8d4c4hvexhfjxh8.canadacentral.azurewebsites.net/health || exit 1
+        curl -f https://projecttestapp-staging-c8d4c4hxechjfxh8.canadacentral-01.azurewebsites.net/health || exit 1
         
     - name: swap staging slot to production
       uses: azure/cli@v2
